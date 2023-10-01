@@ -39,7 +39,7 @@ Model Evaluation
 Each model is evaluated using cross-validation to estimate its performance. The evaluation metrics used are accuracy score and the Receiver Operating Characteristic (ROC) curve. The area under the ROC curve (AUC) is used to measure the model's discriminative ability.
 
 ## 3. Optimizing the Best Model (KNN)
-Based on the initial evaluation, KNN showed the best performance. Hyperparameter tuning is performed using Exhaustive Grid Search to find the best value for the number of neighbors (k). The hyperparameters metric, n_neighbors, and weights are optimized. After tuning, the model is evaluated again and the results are compared. Here the confusion matrix from the tuned KNN model : ![image](https://github.com/VioleauPierre/Breakaway_win/assets/129098391/b2c54e7a-4e53-496c-b5c4-13440eaa89ba)
+Based on the initial evaluation, KNN showed the best performance. Hyperparameter tuning is performed using Exhaustive Grid Search to find the best value for the number of neighbors (k). The hyperparameters metric, n_neighbors, and weights are optimized. After tuning, the model is evaluated again and the results are compared. Find below the confusion matrix from the tuned KNN model : ![image](https://github.com/VioleauPierre/Breakaway_win/assets/129098391/b2c54e7a-4e53-496c-b5c4-13440eaa89ba)
 
 
 ## 4. Results
