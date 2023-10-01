@@ -9,7 +9,7 @@ This project aims to develop a machine learning model to predict whether an earl
 - matplotlib
 
 ## Skills : 
-- Machine Learning Models: Various machine learning models are explored, including Logistic Regression, SVM, Decision Trees, Random Forest, Naive Bayes, and K-Nearest Neighbors (KNN).
+- Machine Learning Models: Logistic Regression, SVM, Decision Trees, Random Forest, Naive Bayes, and K-Nearest Neighbors (KNN).
 - Model Selection and Evaluation: The project uses cross-validation to select the best-performing model and evaluates the models using accuracy scores and Receiver Operating Characteristic (ROC) curves to measure their predictive performance.
 - Hyperparameter Tuning: Hyperparameter tuning is demonstrated using GridSearchCV to optimize the KNN model's performance by finding the best values for hyperparameters.
 
@@ -28,18 +28,21 @@ More than half of the hilly and mountain stages ended with a breakaway win.
 ## 2. Model Selection
 Several machine learning algorithms are used to predict the "Breakaway win" based on the features. The following models are used:
 
-Dummy classifier: A simple baseline that predicts the most frequent class.
-Logistic regression
-SVM (Support Vector Machine)
-Decision trees
-Random forest
-Naive Bayes
-K-Nearest Neighbors (KNN)
-Model Evaluation
+- Dummy classifier: A simple baseline that predicts the most frequent class.
+- Logistic regression
+- SVM (Support Vector Machine)
+- Decision trees
+- Random forest
+- Naive Bayes
+- K-Nearest Neighbors (KNN)
+- Model Evaluation
 Each model is evaluated using cross-validation to estimate its performance. The evaluation metrics used are accuracy score and the Receiver Operating Characteristic (ROC) curve. The area under the ROC curve (AUC) is used to measure the model's discriminative ability.
 
 ## 3. Optimizing the Best Model (KNN)
-Based on the initial evaluation, KNN showed the best performance. Hyperparameter tuning is performed using Exhaustive Grid Search to find the best value for the number of neighbors (k). The hyperparameters metric, n_neighbors, and weights are optimized. After tuning, the model is evaluated again and the results are compared.
+Based on the initial evaluation, KNN showed the best performance. Hyperparameter tuning is performed using Exhaustive Grid Search to find the best value for the number of neighbors (k). The hyperparameters metric, n_neighbors, and weights are optimized. After tuning, the model is evaluated again and the results are compared. Here the convusion matrix from the tuned KNN model : ![image](https://github.com/VioleauPierre/Breakaway_win/assets/129098391/b2c54e7a-4e53-496c-b5c4-13440eaa89ba)
+
 
 ## 4. Results
-The results for all models are summarized in a DataFrame df_result. The predictions for the "Breakaway_win" made by KNN before and after optimization are included for each stage of the Giro and the Tour. !It only contain Giro and Tour (waiting for Vuelta result)!
+The results for all models are summarized in a DataFrame df_result and in viewed usinig a bar plot. 
+![image](https://github.com/VioleauPierre/Breakaway_win/assets/129098391/5375f503-fb40-4aaf-9777-5dd4baca4f06)
+
