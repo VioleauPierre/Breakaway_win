@@ -1,6 +1,6 @@
 # Breakaway_win
 ## Project Overview : 
-This project aims to develop a machine learning model to predict whether an early breakaway will take the win in a cycling Grand Tour stage. The train data used for this project is taken from the years 2013 to 2022 and the test data from 2023 (waiting for Vuelta result). The project includes data preparation, model selection, cross-validation, and evaluation of different machine learning algorithms.
+This project aims to develop a machine learning model to predict whether an early breakaway will take the win in a cycling Grand Tour stage. The train data used for this project is taken from the years 2013 to 2022 and the test data from 2023. The project includes data preparation, model selection, cross-validation, and evaluation of different machine learning algorithms.
 
 ## Librairies used
 - pandas
