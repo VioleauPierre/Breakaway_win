@@ -36,7 +36,6 @@ Several machine learning algorithms are used to predict the "Breakaway win" base
 - Naive Bayes
 - K-Nearest Neighbors (KNN)
 
-Model Evaluation
 Each model is evaluated using cross-validation to estimate its performance. The evaluation metrics used are accuracy score and the Receiver Operating Characteristic (ROC) curve. The area under the ROC curve (AUC) is used to measure the model's discriminative ability.
 
 ## 3. Optimizing the Best Model (KNN)
